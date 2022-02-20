@@ -6,8 +6,8 @@
   "author": "Cameron Pavey <cpave3@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:frontend": "cd ./frontend && npm run build",
-    "start": "node ./index.js"
+    "build:frontend": "cd ./frontend && npm install && npm run build",
+    "start": "npm run build:frontend && node ./index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
