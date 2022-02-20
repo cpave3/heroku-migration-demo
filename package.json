@@ -1,0 +1,17 @@
+{
+  "name": "heroku-migration-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cpave3/heroku-migration-demo.git",
+  "author": "Cameron Pavey <cpave3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:frontend": "cd ./frontend && npm run build",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  }
+}
